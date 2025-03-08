@@ -1,0 +1,157 @@
+/* Configuración General */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #dcd6f7, #a6b1e1);
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    background: linear-gradient(to right, #7b2cbf, #3c096c);
+    color: white;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+/* Secciones Generales */
+section {
+    margin: 30px;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+/* Títulos */
+h2 {
+    color: #5a189a;
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #7b2cbf;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Mujeres Inspiradoras */
+.mujeres-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mujer {
+    text-align: center;
+    width: 200px;
+    padding: 15px;
+    background: #c8b6ff;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.mujer:hover {
+    transform: translateY(-5px);
+}
+
+.mujer img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Galería - Carrusel */
+.carrusel {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    padding: 10px;
+    scroll-behavior: smooth;
+}
+
+.carrusel::-webkit-scrollbar {
+    display: none;
+}
+
+.carrusel img {
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.carrusel img:hover {
+    transform: scale(1.05);
+}
+
+/* Lista de Recursos */
+.recursos ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.recursos li {
+    background: #a6b1e1;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.recursos li:hover {
+    background: #7b2cbf;
+}
+
+.recursos a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Pie de Página */
+footer {
+    text-align: center;
+    background: linear-gradient(to right, #7b2cbf, #3c096c);
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+button {
+    background-color: #e5cdd5;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #946fb2;
+}
